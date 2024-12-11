@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color:rgb(232, 201, 201)
+}
+
+.header{
+    /*background-color: aqua;*/
+    height: 15%;
+    text-align: center;
+
+}
+
+.header__img{
+    border-radius: 50px;
+    width: 80px;
+    margin-top: 15px;
+}
+
+.main{
+    /*background-color: blanchedalmond;*/
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.card__main{
+    /*background-color: aqua;*/
+    height: 50vh ;
+    text-align: center;
+}
+
+.section__one{
+    border-radius: 90px;
+    width: 40%;
+    background-color: salmon;
+}
+
+.img__card{
+    margin-top: 60PX;
+    width: 180px;
+}
+
+.title{
+    margin-top: 30px;
+}
+
+.card__title{
+    margin-top: 30px;
+}
+
+.img__icono{
+    cursor: pointer;
+    margin-top: 25px;
+    background: red;
+    border-radius: 50px;
+    width: 20px;
+}
+
+.section__title{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.section__two{
+    border-radius: 90px;
+    width: 40%;
+    background-color: salmon;
+}
+
+.title__form{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.contact__form{
+    padding: 5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+    flex-direction: column;
+}
+
+.footer{
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    height: 10%;
+   /* background-color: aquamarine;*/
+}
+
+.footer__img{
+    width: 100px;
+    margin-right: 8px;
+    border-radius: 60px;
+}
+
+.paragraph{
+    margin-top: 45px;
+}
+
+.additional__text{
+    margin-top: 38px;
+    margin-left: 8px;
+}

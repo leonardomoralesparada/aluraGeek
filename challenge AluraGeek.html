@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--encabezado-->
+    <header class="header">
+        <img class="header__img" src="assets/alura.png" alt="logo de alura">
+    </header>
+
+    <!--contenedor principal-->
+    <main class="main">
+        <section class="section__one">
+            <h1 class="section__title">Mis Productos:</h1>
+            <div data-product class="card"></div>
+        </section>    
+
+    <!--seccion de agregar productos-->
+
+        <section class="section__two">
+
+            <h1 class="title__form">Agregar Producto:</h1>
+
+    <!--formulario para agregar productos-->  
+            <form class="contact__form" data-formulario>
+                <input type="text" placeholder="Nombre" data-titulo>
+                <input type="text" placeholder="Precio" data-precio>
+                <input type="text" placeholder="Imagen" data-imagen>
+                <button type="submit" class="send__button" id="button">Enviar</button>
+                <button type="reset" class="clean__button" id="button">limpiar</button>
+            </form>
+
+        </section>
+                
+    </main>
+    <!--pie de pagina-->
+    <footer class="footer">
+        <img  src="assets/leo.png" alt="leo imagen" class="footer__img">
+        <p class="paragraph">Desarrollado por: Leonardo Morales</p>
+        <h2 class="additional__text">Alura Latam 2024</h2>
+    </footer>
+    <script src="./consulta/mostrar.js" type="module"></script>
+</body>
+</html>
